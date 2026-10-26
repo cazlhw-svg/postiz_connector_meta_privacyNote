@@ -1,0 +1,9 @@
+# User Data Deletion Instructions
+
+In accordance with Meta's platform terms, users may request the deletion of their data connected to this application.
+
+## How to Delete Your Data
+Because this is a private, self-hosted instance of Postiz:
+1. You can disconnect your Instagram/Facebook account at any time directly from the Postiz dashboard by deleting the channel integration.
+2. Alternatively, you can remove the app's permissions from your Facebook Account Settings under **Business Integrations**.
+3. All local database records associated with your account can be completely wiped by stopping the local Docker container stack and clearing the local volumes (`docker compose down -v`).
